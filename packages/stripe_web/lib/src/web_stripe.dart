@@ -39,7 +39,7 @@ class WebStripe extends StripePlatform {
   factory WebStripe() => instance;
 
   @override
-  bool get updateSettingsLazily => false;
+  bool get updateSettingsLazily => true;
 
   String? _urlScheme;
 

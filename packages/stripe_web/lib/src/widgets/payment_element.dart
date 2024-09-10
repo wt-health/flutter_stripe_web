@@ -103,7 +103,8 @@ class PaymentElementState extends State<PaymentElement> {
       ..style.border = 'none'
       ..style.width = '100%'
       ..style.height = '${height}'
-      ..style.overflow = 'scroll'
+      ..style.minHeight = '360'
+      ..style.overflow = 'hidden'
       ..style.overflowX = 'hidden';
 
     elements = WebStripe.js.elements(createOptions());
